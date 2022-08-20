@@ -1,0 +1,27 @@
+* {
+    background-color: black;
+}
+
+.container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100%;
+    width: 100%;
+}
+
+#ball {
+    /* to move ball we have to give position absolute */
+    position: absolute;
+    /* in absolute we only have 2 options top and left (right and bottom also be written but they get excluded) */
+    top: 45%;
+    left: 45%;
+    /* so we can write either top left or bottom right */
+    /* bottom: 50%;
+    right: 50%; */
+    background-color: yellow;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5rem;
+
+}
